@@ -111,7 +111,7 @@ echo "Enter username:"
 read USERNAME
 
 echo "Enter password:"
-read -s PASSWORD
+read -r -s PASSWORD
 echo
 
 if ! command -v htpasswd &> /dev/null; then
